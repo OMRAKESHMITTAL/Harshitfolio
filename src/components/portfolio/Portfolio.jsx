@@ -6,28 +6,28 @@ const items = [
   {
     id: 1,
     title: "Online Reservation System",
-    img: "/public/ORS.png",
+    img: "https://www.pesapal.com/media/1597/online-reservation-systems-blog-post-770x335-a.png?anchor=center&mode=crop&width=770&height=375&rnd=132904038070000000",
     desc: "I designed an Online Reservation System using Java with SQL connectivity via JDBC, ensuring seamless database interaction. The project highlighted my expertise in software development and database management, delivering an efficient and reliable reservation solution.",
     link: "https://github.com/OMRAKESHMITTAL/reservationsystem.git"
   },
   {
     id: 2,
     title: " Field Fusion",
-    img: "/public/ff.jpg",
+    img: "https://www.mobius-web.fr/wp-content/uploads/2020/03/Intro-Creation-Site-Web.jpg",
     desc: "Field Fusion is a football ground booking platform built with React, Tailwind CSS, Express, and MongoDB, offering real-time availability updates. Administrators can efficiently manage bookings with comprehensive validations, ensuring a seamless user experience.",
     link:"https://github.com/OMRAKESHMITTAL/fieldfusion.git"
   },
   {
     id: 3,
     title: "Customer Segmentation Analysis",
-    img: "/public/CSA.jpg",
+    img: "https://www.clootrack.com/hubfs/Customer%20Segmentation%20Analysis.jpg",
     desc: "For the Customer Segmentation Analysis project, I used Python and Streamlit with K-means clustering, leveraging NumPy, Pandas, and Scikit-learn for data preprocessing. I created visualizations with Matplotlib and Seaborn, offering actionable insights into customer behavior.",
     link: "https://github.com/OMRAKESHMITTAL/customer-segmentation.git"
   },
   {
     id: 4,
     title: "SecureCompact",
-    img: "/public/sc.webp",
+    img: "https://wallpapercave.com/wp/wp9497769.jpg",
     desc: "Developed SecureCompact using C++ with advanced Huffman coding for compression and Caesar cipher for encryption. Implemented secure storage, generating encrypted zip files and managing passwords, highlighting expertise in algorithmic design and data security.",
     link :"https://github.com/OMRAKESHMITTAL/SECURECOMPACT.git"
   },
@@ -35,7 +35,7 @@ const items = [
   {
     id: 4,
     title: "Emotion Detection",
-    img: "/public/ED.jpg",
+    img: "https://th.bing.com/th/id/OIP.jsCVderJpmx5i1G3cZODcgHaE8?rs=1&pid=ImgDetMain",
     desc: "I developed an emotion detection system using Python on Google Colab, building a CNN with TensorFlow and Keras for accurate emotion classification. The project included extensive model tuning, evaluation, and advanced visualization for robust performance analysis.",
     link : "https://github.com/OMRAKESHMITTAL/emotion-detection.git"
   },
