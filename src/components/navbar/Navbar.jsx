@@ -1,6 +1,8 @@
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
   return (
@@ -22,10 +24,10 @@ const Navbar = () => {
             <img src="/instagram.png" alt="" />
           </a>
           <a href="http://www.linkedin.com/in/om-mittal/-4a164b22b">
-            <img src="/linkedin-brands-solid.svg" alt="" />
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a href="https://github.com/OMRAKESHMITTAL">
-            <img src="/github-brands-solid.svg" alt="" />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
       </div>
