@@ -68,8 +68,9 @@
     right: 0;
 
     @include mobile {
-      height: 50%;
-      width: 100%;
+      display:none;
+      height: 60%;
+      width: 60%;
       top: unset;
       bottom: 0;
     }
