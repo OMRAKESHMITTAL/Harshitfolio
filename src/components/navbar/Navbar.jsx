@@ -23,7 +23,7 @@ const Navbar = () => {
           <a href="https://www.instagram.com/_ommittal/">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="http://www.linkedin.com/in/om-mittal/-4a164b22b">
+          <a href="https://www.linkedin.com/in/om-mittal-4a164b22b/">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a href="https://github.com/OMRAKESHMITTAL">
