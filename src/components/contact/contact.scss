@@ -53,9 +53,13 @@
 
     .phoneSvg {
       stroke: orange;
-      position: absolute;
-      margin: auto;
+      margin-top: 50px;
+
       z-index: -1;
+      svg{
+        padding-bottom: 40px;
+      }
+
 
       @include mobile {
         display: none;

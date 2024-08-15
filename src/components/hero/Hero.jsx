@@ -38,6 +38,9 @@ const sliderVariants = {
 };
 
 const Hero = () => {
+  const handleContactClick = () => {
+    window.location.href = 'public/ommittal.careers@gmail.com.pdf'; // Replace with the path to your PDF file
+  };
   return (
     <div className="hero">
       <div className="wrapper">
@@ -55,13 +58,19 @@ const Hero = () => {
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button
+                variants={textVariants}
+                onClick={handleContactClick} // Add the click event handler
+            >
+              My Resume
+            </motion.button>
+
           </motion.div>
           <motion.img
-            variants={textVariants}
-            animate="scrollButton"
-            src="/scroll.png"
-            alt=""
+              variants={textVariants}
+              animate="scrollButton"
+              src="/scroll.png"
+              alt=""
           />
         </motion.div>
       </div>
