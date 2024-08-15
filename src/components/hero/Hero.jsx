@@ -1,5 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
+import React from "react";
 
 const textVariants = {
   initial: {
@@ -55,9 +56,6 @@ const Hero = () => {
             Software Developer Engineer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              See the Latest Works
-            </motion.button>
             <motion.button
                 variants={textVariants}
                 onClick={handleContactClick} // Add the click event handler

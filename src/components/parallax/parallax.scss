@@ -12,7 +12,7 @@
 
   h1 {
     font-size: 100px;
-    margin-top: 100px;
+    margin-top: 90px;
 
     @include mobile {
       width: 100%;
@@ -20,6 +20,24 @@
       text-align: start;
       padding-left: 3rem;
     }
+  }
+  h2{
+    margin-left: 70px;
+    padding-left:3rem;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 100px;
+    font-weight: bold;
+    @include mobile {
+      width: 100%;
+      font-size: 50px;
+      text-align: start;
+      padding-left: 3rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
   }
   h3{
     margin-left: 300px;
@@ -73,5 +91,10 @@
     height: 100%;
     position: absolute;
     z-index: 1;
+  }
+
+  .myscroll{
+    margin-right: 45%;
+    margin-bottom: 10%;
   }
 }
