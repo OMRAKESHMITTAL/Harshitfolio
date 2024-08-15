@@ -39,7 +39,7 @@ const sliderVariants = {
 
 const Hero = () => {
   const handleContactClick = () => {
-    window.location.href = 'public/ommittal.careers@gmail.com.pdf'; // Replace with the path to your PDF file
+    window.location.href = 'ommittal.careers@gmail.com.pdf'; // Replace with the path to your PDF file
   };
   return (
     <div className="hero">
