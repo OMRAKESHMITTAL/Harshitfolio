@@ -57,6 +57,9 @@
 
       img {
         width: 50px;
+        @include mobile {
+          padding-bottom:10%;
+        }
       }
     }
   }
@@ -78,11 +81,12 @@
 
     }
     @include mobile {
-      display:none;
-      height: 60%;
-      width: 60%;
-      top: unset;
-      bottom: 0;
+      height: 27%;
+      width: 50%;
+      margin-bottom: 25px;
+      margin-top: 400px;
+      align-items: center;
+      text-align: center;
     }
 
     img{

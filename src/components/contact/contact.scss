@@ -58,43 +58,10 @@
       z-index: -1;
       svg{
         padding-bottom: 40px;
-      }
-
-
-      @include mobile {
-        display: none;
-
-      }
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-
-      input,
-      textarea {
-        padding: 20px;
-        background-color: transparent;
-        border: 1px solid white;
-        color: white;
-        border-radius: 5px;
-
         @include mobile {
-          padding: 5px;
-          height: 25px;
+          height:100%;
+          width: 100%;
 
-        }
-      }
-
-      button {
-        padding: 20px;
-        border: none;
-        background-color: orange;
-        cursor: pointer;
-        font-weight: 500;
-        @include mobile {
-          padding: 5px;
         }
       }
     }
