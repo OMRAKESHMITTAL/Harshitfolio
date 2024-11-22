@@ -40,7 +40,7 @@ const sliderVariants = {
 
 const Hero = () => {
   const handleContactClick = () => {
-    window.location.href = '/ommittal.careers@gmail.com.pdf'; // Replace with the path to your PDF file
+    window.location.href = '/Harshitresume.pdf'; // Replace with the path to your PDF file
   };
   return (
     <div className="hero">
@@ -51,7 +51,7 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>OM MITTAL</motion.h2>
+          <motion.h2 variants={textVariants}>HARSHIT GARG</motion.h2>
           <motion.h1 variants={textVariants}>
             Software Developer Engineer
           </motion.h1>
@@ -78,7 +78,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Artificial Intelligence And Machine Learning
+        CYBERSECURITY
       </motion.div>
       <div className="imageContainer">
         <img src="/hero.png" alt="" />

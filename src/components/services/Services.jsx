@@ -60,15 +60,11 @@ const Services = () => {
             className="box"
             whileHover={{background: "lightgray", color: "black"}}
         >
-          <h2> Software Developer Intern |<br/> IBM</h2>
+          <h2> Ethical Hacking with Cyber Security  Intern |<br/> Techobytes Technologies </h2>
           <hr/>
           <br/>
           <p>
-            During my IBM internship, where I was the project lead, I gained experience in user authentication, data
-            preprocessing, and natural
-            language processing. I also worked with machine learning for recommendation systems and built interactive
-            web applications using
-            Streamlit.
+          During my internship in Ethical Hacking and Cybersecurity, I worked on identifying and mitigating vulnerabilities in systems and networks through tasks such as vulnerability assessments, penetration testing, and security audits. Using tools like Nmap, Burp Suite, and Wireshark, I conducted risk analysis and helped implement preventive measures like firewalls and encryption. Additionally, I contributed to incident response efforts and created awareness programs to educate teams on phishing and malware prevention. This experience enhanced my technical skills and deepened my understanding of securing digital infrastructures.
           </p>
           <br/>
 
@@ -77,14 +73,11 @@ const Services = () => {
             className="box"
             whileHover={{background: "lightgray", color: "black"}}
         >
-          <h2>Machine Learning Intern |<br/> CodeClause</h2>
+          <h2>Web Development Intern |<br/> OctaNet Services Pvt Ltd</h2>
           <hr/>
           <br/>
           <p>
-            Collaborated with the machine learning team to preprocess, clean, and curate datasets for model training,
-            ensuring data quality and
-            integrity. Gained hands-on experience in data visualization tools and techniques to communicate findings
-            effectively
+          During my internship as a Web Development Intern, I gained hands-on experience in designing, developing, and optimizing dynamic websites and web applications. My responsibilities included creating responsive user interfaces using HTML, CSS, and JavaScript, and developing backend functionality with tools. I also worked with databases such as MySQL to manage and retrieve data efficiently. Additionally, I collaborated with teams to troubleshoot issues, improve website performance, and implement modern web design practices. This internship enhanced my technical skills and provided a strong foundation in full-stack web development.
           </p>
           <br/>
 
@@ -93,14 +86,11 @@ const Services = () => {
             className="box"
             whileHover={{background: "lightgray", color: "black"}}
         >
-          <h2>Social Work Intern | <br/>Sarv Abhiyan Samity</h2>
+          <h2>Ethical Hacking with Cyber Security  Intern | <br/>TechnoHacks EduTech Official </h2>
           <hr/>
           <br/>
           <p>
-            Developed a transformative computer literacy program for illiterate individuals, equipping them with
-            essential computer skills.
-            Continuously enhanced the program's impact through integrating new technologies and resources for an
-            enriched learning experience.
+          During my internship in Ethical Hacking and Cybersecurity, I focused on securing systems by performing vulnerability assessments, penetration testing, and security audits using tools like Metasploit and Wireshark. I worked on identifying risks, implementing mitigation strategies, and enhancing system defenses through encryption and firewall setups. Additionally, I contributed to incident response efforts and educated teams on cybersecurity best practices. This hands-on experience solidified my expertise in safeguarding digital assets and tackling real-world security challenges.
 
           </p>
           <br/>

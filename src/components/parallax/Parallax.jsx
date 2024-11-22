@@ -37,24 +37,14 @@ const Parallax =({type} ) =>{
         >
             <motion.h1 style={{y: yBg}}>  {type === "services" ? "About Me!" : ""}</motion.h1>
             <motion.h2 style={{y: yBg}}>  {type !== "services" ? "Here’s What I’ve Been Working On" : ""}</motion.h2>
-            <motion.h3
-                style={{x: yB}}>{type === "services" ? "I’m Om Mittal, a Computer Science Engineering student with a passion for AI and Machine Learning.\n" +
-                "                I have experience in programming with languages like Java, Python, C++, and SQL, and have worked on\n" +
-                "                various projects\n" +
-                "                that involve machine learning,data processing, and software development.In my internships, I’ve led the\n" +
-                "                creation of\n" +
-                "                a course recommendation system at IBM, gaining expertise in user authentication, data preprocessing, and\n" +
-                "                NLP.\n" +
-                "                At CodeClause, I focused on data visualization and model training, ensuring data quality.\n" +
-                "                I’m also dedicated to community service, having developed a computer literacy program during my social\n" +
-                "                work internship.\n" +
-                "                I enjoy tackling complex challenges and turning ideas into reality, as seen in my projects like\n" +
-                "                \"SecureCompact and an\n" +
-                "                emotion detection system. My portfolio showcases my skills and accomplishments, reflecting my commitment\n" +
-                "                to continuous\n" +
-                "                learning and growth in the field of technology." : ""}
+            <motion.h3  
+    style={{x: yB}}>
+    {type === "services" ? "I’m a passionate and dedicated B.Tech graduate in Computer Science Engineering from Delhi Technical Campus, affiliated with Guru Gobind Singh Indraprastha University. Currently, I’m pursuing an MBA at MAIT (Maharaja Agrasen Institute of Technology), also under Guru Gobind Singh Indraprastha University.\n" +
+    "I have a keen interest in Ethical Hacking, Cloud Computing, and Cybersecurity. My technical journey has equipped me with strong analytical and problem-solving skills, as well as a deep understanding of emerging technologies in the digital security domain.\n" +
+    "Beyond academics, I’m a gamer and an avid traveler who enjoys exploring new places and cultures, which fuels my creativity and broadens my perspective.\n" +
+    "I’m always eager to tackle complex challenges, share innovative ideas, and collaborate with others to turn possibilities into reality. If you’re interested in connecting or discussing, feel free to reach out. Let’s create something amazing together!" : ""}
+</motion.h3>
 
-            </motion.h3>
             {type !== "services" && (<div className="myscroll"> <motion.img
                 variants={textVariants}
                 animate="scrollButton"

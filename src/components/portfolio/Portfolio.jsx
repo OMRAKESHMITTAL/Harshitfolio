@@ -5,39 +5,23 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Online Reservation System",
+    title: "CUSTOMIZED LINUX OS FOR FINDING VULNERABILITY",
     img: "https://www.pesapal.com/media/1597/online-reservation-systems-blog-post-770x335-a.png?anchor=center&mode=crop&width=770&height=375&rnd=132904038070000000",
-    desc: "I designed an Online Reservation System using Java with SQL connectivity via JDBC, ensuring seamless database interaction. The project highlighted my expertise in software development and database management, delivering an efficient and reliable reservation solution.",
-    link: "https://github.com/OMRAKESHMITTAL/reservationsystem.git"
-  },
+    desc: "This research introduces a Customized Linux Operating System (CLOS) tailored for efficient vulnerability assessment. Built on a lightweight distribution, the CLOS integrates specialized tools, automated scanning, a user-friendly interface, and a robust reporting framework. Prioritizing simplicity and effectiveness, it offers a purpose-built environment to streamline the identification and analysis of security vulnerabilities. The CLOS contributes to advancing cybersecurity practices by providing a lean, regularly updated platform for comprehensive vulnerability assessments. Through practical testing, this research demonstrates the CLOS's efficacy in providing a focused, efficient environment for security professionals engaged in vulnerability management.",
+    link: "https://github.com/"
   {
     id: 2,
-    title: " Field Fusion",
+    title: " FILE SECURITY APPLICATION USING RIJNDAEL ENCRYPTION",
     img: "https://www.mobius-web.fr/wp-content/uploads/2020/03/Intro-Creation-Site-Web.jpg",
-    desc: "Field Fusion is a football ground booking platform built with React, Tailwind CSS, Express, and MongoDB, offering real-time availability updates. Administrators can efficiently manage bookings with comprehensive validations, ensuring a seamless user experience.",
-    link:"https://github.com/OMRAKESHMITTAL/fieldfusion.git"
+    desc: "This research paper presents the design, implementation, and testing of a comprehensive system for secure file encryption and transfer between Android devices and PCs. The system, named Cyphercraft integrates efficient encryption algorithms, socket programming for secure communication, and key management for enhanced security. The paper discusses the architecture, key components, and the testing process, including the identified issues and recommendations for improvement.",
+    link:"https://www.researchgate.net/publication/376757320_File_Security_Application_using_Rijndael_Encryption"
   },
   {
     id: 3,
-    title: "Customer Segmentation Analysis",
+    title: "ENHANCED SECURITY FRAMEWORK",
     img: "https://www.clootrack.com/hubfs/Customer%20Segmentation%20Analysis.jpg",
-    desc: "For the Customer Segmentation Analysis project, I used Python and Streamlit with K-means clustering, leveraging NumPy, Pandas, and Scikit-learn for data preprocessing. I created visualizations with Matplotlib and Seaborn, offering actionable insights into customer behavior.",
-    link: "https://github.com/OMRAKESHMITTAL/customer-segmentation.git"
-  },
-  {
-    id: 4,
-    title: "SecureCompact",
-    img: "https://wallpapercave.com/wp/wp9497769.jpg",
-    desc: "Developed SecureCompact using C++ with advanced Huffman coding for compression and Caesar cipher for encryption. Implemented secure storage, generating encrypted zip files and managing passwords, highlighting expertise in algorithmic design and data security.",
-    link :"https://github.com/OMRAKESHMITTAL/SECURECOMPACT.git"
-  },
-
-  {
-    id: 4,
-    title: "Emotion Detection",
-    img: "https://th.bing.com/th/id/OIP.jsCVderJpmx5i1G3cZODcgHaE8?rs=1&pid=ImgDetMain",
-    desc: "I developed an emotion detection system using Python on Google Colab, building a CNN with TensorFlow and Keras for accurate emotion classification. The project included extensive model tuning, evaluation, and advanced visualization for robust performance analysis.",
-    link : "https://github.com/OMRAKESHMITTAL/emotion-detection.git"
+    desc: "This project introduces an Enhanced Security Framework integrating White Box Traceable Ciphertext-Policy Attribute-Based Encryption (WBCP-ABE) with Security Information and Event Management (SIEM). Through a Django-based web application, the system ensures granular access control over sensitive data and enhances threat detection and response capabilities. Key features include seamless encryption, dynamic access permissions, and comprehensive logging for regulatory compliance. By combining advanced encryption technologies with robust security management, this framework strengthens data security measures and offers enhanced threat visibility.",
+    link: "https://github.com/"
   },
 ];
 
