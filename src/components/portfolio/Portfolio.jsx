@@ -22,7 +22,7 @@ const items = [
     title: "ENHANCED SECURITY FRAMEWORK",
     img: "https://img.helpnetsecurity.com/wp-content/uploads/2023/12/16180902/cybersecurity_frameworks-1400.jpg",
     desc: "This project introduces an Enhanced Security Framework integrating White Box Traceable Ciphertext-Policy Attribute-Based Encryption (WBCP-ABE) with Security Information and Event Management (SIEM). Through a Django-based web application, the system ensures granular access control over sensitive data and enhances threat detection and response capabilities. Key features include seamless encryption, dynamic access permissions, and comprehensive logging for regulatory compliance. By combining advanced encryption technologies with robust security management, this framework strengthens data security measures and offers enhanced threat visibility.",
-    link: "https://github.com/"
+    link: "https://drive.google.com/file/d/1-x7NmD-9KvUeQpFEUne2s6dPkIPBFkPt/view?usp=sharing"
   },
 ];
 
