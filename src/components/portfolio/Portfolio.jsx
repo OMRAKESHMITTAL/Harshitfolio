@@ -9,6 +9,7 @@ const items = [
     img: "https://www.pesapal.com/media/1597/online-reservation-systems-blog-post-770x335-a.png?anchor=center&mode=crop&width=770&height=375&rnd=132904038070000000",
     desc: "This research introduces a Customized Linux Operating System (CLOS) tailored for efficient vulnerability assessment. Built on a lightweight distribution, the CLOS integrates specialized tools, automated scanning, a user-friendly interface, and a robust reporting framework. Prioritizing simplicity and effectiveness, it offers a purpose-built environment to streamline the identification and analysis of security vulnerabilities. The CLOS contributes to advancing cybersecurity practices by providing a lean, regularly updated platform for comprehensive vulnerability assessments. Through practical testing, this research demonstrates the CLOS's efficacy in providing a focused, efficient environment for security professionals engaged in vulnerability management.",
     link: "https://github.com/"
+  },
   {
     id: 2,
     title: " FILE SECURITY APPLICATION USING RIJNDAEL ENCRYPTION",
