@@ -6,9 +6,10 @@ const items = [
   {
     id: 1,
     title: "CUSTOMIZED LINUX OS FOR FINDING VULNERABILITY",
-    img: "https://www.pesapal.com/media/1597/online-reservation-systems-blog-post-770x335-a.png?anchor=center&mode=crop&width=770&height=375&rnd=132904038070000000",
+    img: "https://www.hemrin.com/images/hemrin-com/business_articles/debian_11_bullseye_xfce.png",
     desc: "This research introduces a Customized Linux Operating System (CLOS) tailored for efficient vulnerability assessment. Built on a lightweight distribution, the CLOS integrates specialized tools, automated scanning, a user-friendly interface, and a robust reporting framework. Prioritizing simplicity and effectiveness, it offers a purpose-built environment to streamline the identification and analysis of security vulnerabilities. The CLOS contributes to advancing cybersecurity practices by providing a lean, regularly updated platform for comprehensive vulnerability assessments. Through practical testing, this research demonstrates the CLOS's efficacy in providing a focused, efficient environment for security professionals engaged in vulnerability management.",
     link: "https://github.com/"
+  },
   {
     id: 2,
     title: " FILE SECURITY APPLICATION USING RIJNDAEL ENCRYPTION",
@@ -19,7 +20,7 @@ const items = [
   {
     id: 3,
     title: "ENHANCED SECURITY FRAMEWORK",
-    img: "https://www.clootrack.com/hubfs/Customer%20Segmentation%20Analysis.jpg",
+    img: "https://img.helpnetsecurity.com/wp-content/uploads/2023/12/16180902/cybersecurity_frameworks-1400.jpg",
     desc: "This project introduces an Enhanced Security Framework integrating White Box Traceable Ciphertext-Policy Attribute-Based Encryption (WBCP-ABE) with Security Information and Event Management (SIEM). Through a Django-based web application, the system ensures granular access control over sensitive data and enhances threat detection and response capabilities. Key features include seamless encryption, dynamic access permissions, and comprehensive logging for regulatory compliance. By combining advanced encryption technologies with robust security management, this framework strengthens data security measures and offers enhanced threat visibility.",
     link: "https://github.com/"
   },
@@ -42,6 +43,9 @@ const Single = ({ item }) => {
             <img src={item.img} alt="" />
           </div>
           <motion.div className="textContainer" style={{y}}>
+            <br/>
+            <br/>
+            <br/>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <a href={item.link} target="_blank" rel="noopener noreferrer">
